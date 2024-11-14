@@ -51,6 +51,8 @@ FullEditor.defaultConfig.toolbar = {
 			'fontColor',
 			'fontBackgroundColor',
 			'horizontalLine',
+			'outdent', // 减少缩进
+			'indent', // 增加缩进
 		]
 };
 
