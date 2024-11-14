@@ -47,7 +47,8 @@ import OpContentRevisions from "./plugins/op-content-revisions/op-content-revisi
 import { Font } from '@ckeditor/ckeditor5-font';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import { Indent, IndentBlock } from '@ckeditor/ckeditor5-indent';
-
+import { HeadingButtonsUI } from '@ckeditor/ckeditor5-heading';
+import { ParagraphButtonUI } from '@ckeditor/ckeditor5-paragraph';
 
 // We divide our plugins into separate concerns here
 // in order to enable / disable each group by configuration
@@ -113,6 +114,8 @@ export const builtinPlugins = [
 	HorizontalLine,
 	Indent,
 	IndentBlock,
+	HeadingButtonsUI,
+	ParagraphButtonUI,
 ].concat(
 	// OpenProject Macro plugin group
 	opMacroPlugins,

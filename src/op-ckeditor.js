@@ -19,7 +19,7 @@ FullEditor.builtinPlugins = builtinPlugins;
 FullEditor.defaultConfig = Object.assign({}, defaultConfig);
 FullEditor.defaultConfig.toolbar = {
 		items: [
-			'heading',
+			'paragraph', 'heading1', 'heading2', 'heading3',
 			'|',
 			'bold',
 			'italic',
