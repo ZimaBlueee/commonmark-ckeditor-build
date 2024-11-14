@@ -44,6 +44,8 @@ import { PageBreak } from '@ckeditor/ckeditor5-page-break';
 import { Autosave } from '@ckeditor/ckeditor5-autosave';
 import OpContentRevisions from "./plugins/op-content-revisions/op-content-revisions";
 
+import { Font } from '@ckeditor/ckeditor5-font';
+
 // We divide our plugins into separate concerns here
 // in order to enable / disable each group by configuration
 export const opMacroPlugins = [
@@ -103,6 +105,8 @@ export const builtinPlugins = [
 	OPMacroListPlugin,
 
 	OpCustomCssClassesPlugin,
+
+	Font,
 ].concat(
 	// OpenProject Macro plugin group
 	opMacroPlugins,

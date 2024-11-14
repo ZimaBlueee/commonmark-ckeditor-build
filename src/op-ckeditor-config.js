@@ -4,6 +4,8 @@ import {customItemRenderer, emojiItemRenderer} from './mentions/mentions-item-re
 import {emojiMentions} from "./mentions/emoji-mentions";
 import {saveInLocalStorage} from "./plugins/op-content-revisions/storage";
 
+import COLORS from './config/colors';
+
 export const defaultConfig = {
 	autosave: {
 		waitingTime: 5000,
@@ -110,6 +112,19 @@ export const defaultConfig = {
 				minimumCharacters: 1
 			}
 		]
+	},
+
+	fontSize: {
+		options: [10, 12, 14, 16, 18, 20, 22],
+		supportAllValues: true,
+	},
+	fontColor: {
+		columns: 12,
+		colors: COLORS,
+	},
+	fontBackgroundColor: {
+		columns: 12,
+		colors: COLORS,
 	},
 
 	language: 'en'

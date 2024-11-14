@@ -45,6 +45,11 @@ FullEditor.defaultConfig.toolbar = {
 			'|',
 			'preview',
 			'opShowSource',
+			'|',
+			'fontSize',
+			// 'fontFamily',
+			'fontColor',
+			'fontBackgroundColor',
 		]
 };
 
