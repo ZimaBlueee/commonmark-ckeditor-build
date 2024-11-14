@@ -45,6 +45,7 @@ import { Autosave } from '@ckeditor/ckeditor5-autosave';
 import OpContentRevisions from "./plugins/op-content-revisions/op-content-revisions";
 
 import { Font } from '@ckeditor/ckeditor5-font';
+import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 
 // We divide our plugins into separate concerns here
 // in order to enable / disable each group by configuration
@@ -107,6 +108,7 @@ export const builtinPlugins = [
 	OpCustomCssClassesPlugin,
 
 	Font,
+	HorizontalLine,
 ].concat(
 	// OpenProject Macro plugin group
 	opMacroPlugins,

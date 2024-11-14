@@ -50,6 +50,7 @@ FullEditor.defaultConfig.toolbar = {
 			// 'fontFamily',
 			'fontColor',
 			'fontBackgroundColor',
+			'horizontalLine',
 		]
 };
 
