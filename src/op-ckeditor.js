@@ -53,6 +53,7 @@ FullEditor.defaultConfig.toolbar = {
 			'horizontalLine',
 			'outdent', // 减少缩进
 			'indent', // 增加缩进
+			'highlight',
 		]
 };
 

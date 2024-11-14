@@ -127,5 +127,38 @@ export const defaultConfig = {
 		colors: COLORS,
 	},
 
+	highlight: {
+		options: [
+			{
+				model: 'yellowMarker',
+				class: 'marker-yellow',
+				title: '黄色高亮',
+				color: 'var(--ck-highlight-marker-yellow)',
+				type: 'marker'
+			},
+			{
+				model: 'greenMarker',
+				class: 'marker-green',
+				title: '绿色高亮',
+				color: 'var(--ck-highlight-marker-green)',
+				type: 'marker'
+			},
+			{
+				model: 'pinkMarker',
+				class: 'marker-pink',
+				title: '粉色高亮',
+				color: 'var(--ck-highlight-marker-pink)',
+				type: 'marker'
+			},
+			{
+				model: 'blueMarker',
+				class: 'marker-blue',
+				title: '蓝色高亮',
+				color: 'var(--ck-highlight-marker-blue)',
+				type: 'marker'
+			},
+		]
+	},
+
 	language: 'en'
 };
