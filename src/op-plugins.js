@@ -51,6 +51,8 @@ import { HeadingButtonsUI } from '@ckeditor/ckeditor5-heading';
 import { ParagraphButtonUI } from '@ckeditor/ckeditor5-paragraph';
 import { Highlight } from '@ckeditor/ckeditor5-highlight';
 
+import './styles.css';
+
 
 // We divide our plugins into separate concerns here
 // in order to enable / disable each group by configuration
