@@ -42,8 +42,8 @@ FullEditor.defaultConfig.toolbar = {
 		'bulletedList', // 无序列表
 		'numberedList', // 有序列表
 		'todoList', // 代办列表
-		'outdent', // 减少缩进
-		'indent', // 增加缩进
+		// 'outdent', // 减少缩进
+		// 'indent', // 增加缩进
 
 		'|',
 
@@ -74,6 +74,9 @@ ConstrainedEditor.builtinPlugins = builtinPlugins;
 ConstrainedEditor.defaultConfig = Object.assign({}, defaultConfig);
 ConstrainedEditor.defaultConfig.toolbar = {
 	items: [
+		'fontColor', // 字体颜色
+		'fontBackgroundColor', // 字体背景色
+		'|',
 		'bold',
 		'italic',
 		'strikethrough',
@@ -89,8 +92,8 @@ ConstrainedEditor.defaultConfig.toolbar = {
 		'opContentRevisions',
 		'undo',
 		'redo',
-		'openProjectShowFormattingHelp',
-		'preview',
-		'opShowSource'
+		// 'openProjectShowFormattingHelp',
+		// 'preview',
+		// 'opShowSource'
 	]
 };
