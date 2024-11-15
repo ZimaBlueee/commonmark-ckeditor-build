@@ -1,3 +1,7 @@
 .ck.ck-color-picker .hex-color-picker {
 	min-width: 180px;
 }
+
+.ck-content {
+	font-size: 16px;
+}

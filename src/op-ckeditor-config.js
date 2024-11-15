@@ -115,7 +115,7 @@ export const defaultConfig = {
 	},
 
 	fontSize: {
-		options: [10, 12, 14, 16, 18, 20, 22],
+		options: [10, 12, 14, 'default', 18, 20, 22],
 		supportAllValues: true,
 	},
 	fontColor: {
